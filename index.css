@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+h3{
+    text-align: center;
+    color: #313552;
+}
+
+.column1{
+    width: 100%;
+    background-color: #F76E11;
+}
+
+.column2{
+    width: 100%;
+    background-color: #FFBC80;
+}
+
+.column3{
+    width: 100%;
+    background-color: #FC4F4F;
+}
+
+@media only screen and (max-width: 768px) {
+    .column3{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:  425px) {
+    .column2{
+        display: none;
+    }
+}
